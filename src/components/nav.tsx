@@ -1,8 +1,6 @@
-import { Navbar, NavDropdown, Nav as BootstrapNav } from 'react-bootstrap';
+import { Navbar, Nav as BootstrapNav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faPuzzlePiece } from '@fortawesome/free-solid-svg-icons'
 function Nav() {
     const base = '/Resume';
     return (
