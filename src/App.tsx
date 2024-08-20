@@ -4,6 +4,7 @@ import Home from "./pages/home.tsx";
 import Nav from './components/nav';
 import About from "./pages/about.tsx";
 import Projects from "./pages/projects.tsx";
+import Contact from "./pages/contact.tsx";
 function App() {
     const base = "Resume"
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route path={`${base}/Home`} element={<Home/>}/>
                     <Route path={`${base}/About`} element={<About/>}/>
                     <Route path={`${base}/Projects`} element={<Projects/>}/>
+                    <Route path={`${base}/Contact`} element={<Contact/>}></Route>
                 </Routes>
             </Router>
 
