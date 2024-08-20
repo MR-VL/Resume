@@ -20,6 +20,11 @@ function Nav() {
                         <BootstrapNav.Link>About</BootstrapNav.Link>
                     </LinkContainer>
 
+                    <LinkContainer className={"margin"} to={`${base}/Projects`}>
+                        <BootstrapNav.Link>Projects</BootstrapNav.Link>
+                    </LinkContainer>
+
+
                 </BootstrapNav>
             </Navbar.Collapse>
         </Navbar>
