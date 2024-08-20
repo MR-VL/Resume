@@ -16,6 +16,9 @@ function Nav() {
                         <BootstrapNav.Link>Home</BootstrapNav.Link>
                     </LinkContainer>
 
+                    <LinkContainer className={"margin"} to={`${base}/About`}>
+                        <BootstrapNav.Link>About</BootstrapNav.Link>
+                    </LinkContainer>
 
                 </BootstrapNav>
             </Navbar.Collapse>
