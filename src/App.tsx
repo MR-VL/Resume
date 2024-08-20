@@ -5,6 +5,7 @@ import Nav from './components/nav';
 import About from "./pages/about.tsx";
 import Projects from "./pages/projects.tsx";
 import Contact from "./pages/contact.tsx";
+import Hobbies from "./pages/hobbies.tsx";
 function App() {
     const base = "Resume"
     return (
@@ -16,7 +17,8 @@ function App() {
                     <Route path={`${base}/Home`} element={<Home/>}/>
                     <Route path={`${base}/About`} element={<About/>}/>
                     <Route path={`${base}/Projects`} element={<Projects/>}/>
-                    <Route path={`${base}/Contact`} element={<Contact/>}></Route>
+                    <Route path={`${base}/Hobbies`} element={<Hobbies/>}/>
+                    <Route path={`${base}/Contact`} element={<Contact/>}/>
                 </Routes>
             </Router>
 

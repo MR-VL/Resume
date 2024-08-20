@@ -23,6 +23,10 @@ function Nav() {
                     <LinkContainer className={"margin"} to={`${base}/Projects`}>
                         <BootstrapNav.Link>Projects</BootstrapNav.Link>
                     </LinkContainer>
+                    
+                    <LinkContainer className={"margin"} to={`${base}/Hobbies`}>
+                        <BootstrapNav.Link>Hobbies</BootstrapNav.Link>
+                    </LinkContainer>
 
                     <LinkContainer className={"margin"} to={`${base}/Contact`}>
                         <BootstrapNav.Link>Contact</BootstrapNav.Link>
